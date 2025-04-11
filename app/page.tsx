@@ -25,10 +25,11 @@ export default function Page() {
           
       
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Storck KG .</strong> This is the example for the Roni's Bachelor Thesis: <span style={{ color: 'red', fontWeight: 'bold' } }>"digitalen schwarzen Bretter..."</span> by {' '}
-            <a href="https://www.storck.com/de/karriere/stellenmarkt/job/abschlussarbeit-im-bereich-medien-wirtschaftsinformatik-5260" target="_blank" className="text-blue-500">
-              August Storck KG
+            <strong>Welcome to RAD platform.</strong> This is the example for the{' '}
+            <a href="https://nextjs.org/learn/" className="text-blue-500">
+              Next.js Learn Course
             </a>
+            , brought to you by Vercel.
           </p>
           <Link
             href="/login"
